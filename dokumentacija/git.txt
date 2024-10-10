@@ -1,0 +1,6 @@
+git ststus  daje informacije o trenutnim fajlovima
+git add /ime fajla/ dodaje fajl ili ako se umesto ime fajla stavi tacka(.) dodaje sve fajlove
+dit commit -m"/Poruka/" Priprema fajlove za slanje na git sa porukom
+git push origin /naziv grane/   salje na git granu na remote repozitorijum
+git pull origin /naziv grane/   preuzima sa gita na lokalni repozitorijum
+git brunch  prikazuje sve grane i pokazuje koja je trenutno aktivna

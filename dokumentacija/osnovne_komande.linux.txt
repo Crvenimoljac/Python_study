@@ -1,0 +1,11 @@
+ls -a   izlistavanje
+ls  izlistavanje
+ls -i   izlistavanje
+ls -li  izlistavanje
+cd  promeni direktorijum u kom se nalazis (cd .. - vraca u roditeljski direktorijum)
+mkdir /naziv direktorijuma/   kreiraj direktorijum
+rmdir /naziv direktorijuma/   izbrisi direktorijum
+rm /naziv fajla/    brise fajl
+touch /naziv fajla.ekstenzija/  kreira fajl
+mv /naziv direktorijuma ili fajla/ /novi naziv direktorijuma ili fajla/ menja naziv direktorijuma ili fajla
+mv /naziv direktorijuma ili fajla/ /nova lokacija/  premesta direktorijum ili  fajl na novu adresu

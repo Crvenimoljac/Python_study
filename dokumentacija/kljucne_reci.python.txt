@@ -1,0 +1,1 @@
+round (/broj/,/broj decimala/)    odredjuje na koliko decimala zelimo da zaokruzimo broj

@@ -1,0 +1,4 @@
+int celobrojna vrednost
+float   decimalna vrednost
+string  tekstualna vrednost
+bool    logicka vrednost(True/False)

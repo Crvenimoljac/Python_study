@@ -1,0 +1,7 @@
++   sabiranje
+-   oduzimanje
+*   mnozenje
+/   deljenje
+//  deljenje sa ostatkom
+**  stepenovanje
+%   ostatak pri deljenju
