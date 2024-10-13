@@ -1,6 +1,5 @@
 a=input("Napisi nesto, i vidi sta ce se desiti. \n")
-b=a.lower()
-if b==a:
+if a.islower():
     print("Ne koristis caps?!")
 else:
     print("Pozzz")
