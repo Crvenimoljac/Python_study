@@ -15,7 +15,7 @@ def fibonacijev_niz(n:int):
 #Ispravljen kod
 def fibonacci(n:int)->list:
     arr=[0,1]
-    for i in range(2,n):
+    for i in range(2,n+1):
         next_fib=arr[-1]+arr[-2]
         if next_fib>n:
             break
@@ -23,5 +23,4 @@ def fibonacci(n:int)->list:
     return arr
 
 a=int(input("Unesi broj do kog zelis da izracunas fibonacijev niz: \n"))
-print(f"Fibonacijev niz do {a} broja je:{fibonacijev_niz(a)} ")
 print(f"\n\nFibonacijev niz do {a} broja je: {fibonacci(a)}")
