@@ -4,7 +4,13 @@
 # poziva funkciju i ispisuje rezultat.
 # Svaki novi član niza se dobija kao zbir prethodna 2.
 
-
+def fibonacijev_niz(n:int):
+    a,b=0,1
+    r=[]
+    for b in range(n):
+        a,b=b,a+b
+        r.append(a)
+    return r
 
 #Ispravljen kod
 def fibonacci(n:int)->list:
@@ -17,4 +23,5 @@ def fibonacci(n:int)->list:
     return arr
 
 a=int(input("Unesi broj do kog zelis da izracunas fibonacijev niz: \n"))
+print(f"Fibonacijev niz do {a} broja je:{fibonacijev_niz(a)} ")
 print(f"\n\nFibonacijev niz do {a} broja je: {fibonacci(a)}")
