@@ -10,9 +10,10 @@
 def fibonacci(n:int)->list:
     arr=[0,1]
     for i in range(2,n):
-        arr.append(arr[-1]+arr[-2])
-        if(arr[i]>n):
+        next_fib=arr[-1]+arr[-2]
+        if next_fib>n:
             break
+        arr.append(next_fib)
     return arr
 
 a=int(input("Unesi broj do kog zelis da izracunas fibonacijev niz: \n"))
