@@ -24,3 +24,15 @@ def fibonacci(n:int)->list:
 
 a=int(input("Unesi broj do kog zelis da izracunas fibonacijev niz: \n"))
 print(f"\n\nFibonacijev niz do {a} broja je: {fibonacci(a)}")
+
+#arr=[0,1]
+#next_fib=1+0 (1)
+#arr=[0,1,1]
+#next_fib=1+1 (2)
+#arr=[0,1,1,2]
+#next_fin=2+1 (3)
+#arr=[0,1,1,2,3]
+#next_fin=3+2 (5)
+#arr=[0,1,1,2,3,5]
+#next_fin=5+3 (8)
+#arr=[0,1,1,2,3,5,8]
