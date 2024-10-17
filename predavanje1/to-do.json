@@ -1,0 +1,19 @@
+{
+    "toDoList": [
+      {
+        "id": 1,
+        "zadak": "Kupiti namirnice",
+        "status": "završeno"
+      },
+      {
+        "id": 2,
+        "zadak": "Ići na trčanje",
+        "status": "nije započeto"
+      },
+      {
+        "id": 3,
+        "zadak": "Pročitati knjigu",
+        "status": "20"
+      }
+    ]
+  }
