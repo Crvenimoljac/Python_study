@@ -1,0 +1,5 @@
+P1 To-do list: Napisati program koji kreira, popunajva i cita to-do listu.
+    korisnik moze da bira da li zeli da doda nove zadatke, cita stare,
+    brise ili cekira da je zadatak izvrsen (progres ili kompletan).
+    Program treba da cuva zadatke u json formatu. Program treba da radi u realnim uslovima
+    sa korisnicima, i da bude funkcionalan
