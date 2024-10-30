@@ -1,0 +1,3 @@
+potrebno je iz car_price_prediction.csv izvuci za odredjeni brend i model predvidjanje cene, tj. uporediti cenu iz prethodne godine i 
+i dati korisniku odredjeni komentar da li je cena pala, rasla ili nepromenjena. potrebno je dati i grafisko reresenje (grafik) za model i brend koji korisnik izabere.
+za crtanje grafika koristiti biblioteku pyplot. 
